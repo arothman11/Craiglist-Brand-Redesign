@@ -1,0 +1,40 @@
+.body{
+  width: 100vw;
+}
+
+.navbar{
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: pink;
+  margin-bottom:
+  color: white;
+}
+
+.img{
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+}
+
+.backgroundimg{
+  width: 100vw;
+  left: 0;
+  opacity: 50%;
+}
+
+.imgtext{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img .search-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-75px, 10px);
+}
