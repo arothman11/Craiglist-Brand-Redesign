@@ -4,33 +4,320 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Craigslist">
-  <link href="style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>CSE 204 - Assignment 06 Brand Redesign</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c5370474cb.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <div class="navbar_left">
+    <ul id="left-ul">
+      <li><img class="logo" src="peacesign.png" alt="Peace Sign" width="25" height="25"></img></li>
+      <li><a class="brand"><b>craigslist</b></a></li>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">english
+            <i class="arrow down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">espanol</a>
+            <a href="#">francais</a>
+            <a href="#">italiano</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="account">My Account </div>
+      </li>
+      <li>
+        <button class="button">POST HERE</button>
+      </li>
+    </ul>
+    <ul id="right-ul">
 
-<div class="navbar">
-<!--  <div class="dropdown">
-    <button class="hamburger">
-      <i class="fas fa-bars"></i>
-    </button>
-  </div> -->
+    </ul>
+  </div>
 
-  <h3> craigslist </h3>
+  <div class="header">
+    <h1 class="slogan">ANYTHING YOU NEED,
+    <br> WE'VE GOT YOU COVERED.</h1>
+    <div class="wrap">
+     <div class="search">
+        <input type="text" class="searchTerm" placeholder="What do you need?">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+       </button>
+     </div>
+  </div>
+  </div>
+
+
+  <div class="sug-container">
+    <div>
+      <a class="sughead" href="#">iPhoneX - $250</a>
+      <img class="sugimg" src="iphone.jpeg" alt="iphone"></img>
+    </div>
+    <div>
+      <a class="sughead" href="#">Car - $4,532</a>
+      <img class="sugimg" src="car.jpeg" alt="car"></img>
+    </div>
+    <div>
+      <a class="sughead" href="#">Tickets - $40 each</a>
+      <img class="sugimg" src="tickets.jpeg" alt="tickets"></img>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div id="calender" class="grid-item">
+      <div class="grid-header">NOVEMBER</div>
+      <div class="calander-body">
+        <ul class="weekdays">
+          <li>S</li>
+          <li>M</li>
+          <li>T</li>
+          <li>W</li>
+          <li>T</li>
+          <li>F</li>
+          <li>S</li>
+        </ul>
+        <ul class="days">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>27</li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="community" class="grid-item">
+      <div class="grid-header">COMMUNITY</div>
+      <div class="row">
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Activities</a></li>
+          <li><a href="#">Artists</a></li>
+          <li><a href="#">Childcare</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">General</a></li>
+          <li><a href="#">Groups</a></li>
+        </ul>
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Lost+found</a></li>
+          <li><a href="#">Musicians</a></li>
+          <li><a href="#">Pets</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Rideshare</a></li>
+          <li><a href="#">Volunteers</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="housing" class="grid-item">
+      <div class="grid-header">HOUSING</div>
+      <div class="row">
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Apts</a></li>
+          <li><a href="#">Commercial</a></li>
+          <li><a href="#">Housing</a></li>
+          <li><a href="#">Housing swap</a></li>
+          <li><a href="#">Housing wanted</a></li>
+          <li><a href="#">Office</a></li>
+        </ul>
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Parking / Storage</a></li>
+          <li><a href="#">Real estate</a></li>
+          <li><a href="#">Rooms wanted</a></li>
+          <li><a href="#">Sublets</a></li>
+          <li><a href="#">Vacation rentals</a></li>
+          <li><a href="#">Storage</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div id="jobs" class="grid-item">
+      <div class="grid-header">JOBS</div>
+      <div class="row">
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Accounting</a></li>
+          <li><a href="#">Art / design</a></li>
+          <li><a href="#">Buisness</a></li>
+          <li><a href="#">Customer service</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">General labor</a></li>
+          <li><a href="#">Government</a></li>
+        </ul>
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Medical</a></li>
+          <li><a href="#">Real estate</a></li>
+          <li><a href="#">Securtiy</a></li>
+          <li><a href="#">Software</a></li>
+          <li><a href="#">Transport</a></li>
+          <li><a href="#">Web</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="services" class="grid-item">
+      <div class="grid-header">SERVICES</div>
+      <div class="row">
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Automotive</a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Computer</a></li>
+          <li><a href="#">Creative</a></li>
+          <li><a href="#">Event</a></li>
+          <li><a href="#">Farm+Garden</a></li>
+          <li><a href="#">Financial</a></li>
+          <li><a href="#">Household</a></li>
+        </ul>
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Move</a></li>
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Lessons</a></li>
+          <li><a href="#">Pet</a></li>
+          <li><a href="#">Real Estate</a></li>
+          <li><a href="#">Skilled Trade</a></li>
+          <li><a href="#">Advertisements</a></li>
+          <li><a href="#">Travel / Vacation</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div id="for-sale" class="grid-item">
+      <div class="grid-header">FOR SALE</div>
+      <div class="row">
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Antiques</a></li>
+          <li><a href="#">Appliances</a></li>
+          <li><a href="#">Arts+Crafts</a></li>
+          <li><a href="#">Automotive</a></li>
+          <li><a href="#">Baby+Kid</a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Bikes</a></li>
+          <li><a href="#">Books</a></li>
+        </ul>
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Clothes</a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Free</a></li>
+          <li><a href="#">Furniture</a></li>
+          <li><a href="#">Jewlrey</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Photo+Video</a></li>
+          <li><a href="#">Tickets</a></li>
+        </ul>
+      </div>
+     </div>
+
+    <div id="discussion" class="grid-item">
+      <div class="grid-header">DISCUSSION</div>
+      <div class="row">
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Apple</a></li>
+          <li><a href="#">Arts</a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Celebs</a></li>
+          <li><a href="#">Diet</a></li>
+          <li><a href="#">Divorce</a></li>
+          <li><a href="#">Dying</a></li>
+          <li><a href="#">Food</a></li>
+        </ul>
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Gaming</a></li>
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Jokes</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Outdoor</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Religion</a></li>
+          <li><a href="#">Sports</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="gigs" class="grid-item">
+      <div class="grid-header">GIGS</div>
+      <div class="row">
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Comptuer</a></li>
+          <li><a href="#">Creative</a></li>
+          <li><a href="#">Crew</a></li>
+          <li><a href="#">Domestic</a></li>
+        </ul>
+        <ul class="column" style="list-style-type:none;">
+          <li><a href="#">Event</a></li>
+          <li><a href="#">Labor</a></li>
+          <li><a href="#">Talent</a></li>
+          <li><a href="#">Writing</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="resume" class="grid-item">
+        <div class="grid-header">RESUME</div>
+        <button class="button">Upload Here</button>
+    </div>
+  </div>
+
+
+
+<div class="About">
+  <h1 id="Aboutheader">About Craigslist</h1>
+  <div class="Founders">
+    <img class="jim" src="jim.jpeg" alt="CEO Jim" align="top">
+    <h3 class="name">CEO Jim Buckmaster</h3>
+    <h6 class="jimdescription">
+      Possibly the only CEO ever described by the business press as anti-establishment, a communist, and a socialistic anarchist, since 2000 Jim has led craigslist to be the most used classifieds in any medium, and one of the world's most popular websites, while maintaining its public service mission, non-corporate vibe, staff of less than 50.
+      Before devolving into management, Jim contributed craigslist's homepage design, multi-city architecture, discussion forums, search engine, community moderation system, self-posting process, personals categories (including missed connections), and best-of-craigslist.
+      <br>
+      <br>
+      Prior to craigslist, directed web development for Creditland (defunct) and Quantum. In 1994-95, he built the terabyte-scale, database-driven web interface at ICPSR through which researchers worldwide access the primary data archive for the social sciences.
+      After graduating summa cum laude from Virginia Tech (biochemistry), Jim attended medical school, studied classics, and made tofu at the University of Michigan. Now, aside from a few haiku, it's mostly business reads for him.
+      Ridiculously tall, Jim has been the subject of feature stories in New York Times, Wall Street Journal, Financial Times, Wired, Fortune, Business Week, Guardian, Telegraph, Sunday Times, and SF Chronicle, and has made dozens of television appearances to rave reviews, including being denounced on Fox News by the late Reverend Jerry Falwell, (RIP).
+      In addition to his CEO duties, Jim manages the craigslist Charitable Fund, and serves as executive producer for craigslist TV. He writes intermittently on the craigslist blog.
+    </h6>
+    <img class="craig" src="craig.jpeg" alt="Craig" align="top">
+    <h3 class="name">Founder Craig Newmark</h3>
+    <h6 class="jimdescription">
+      Craig Newmark is a self-professed nerd who founded craigslist in the nineties.
+      He handed over management to craigslist's current CEO Jim Buckmaster in 2000, continuing his role in customer service.
+      In 2016 Craig started The Craig Newmark Foundation, and since retiring from craigslist is focusing 100% of his energy on philanthropy via Craig Newmark Philanthropies.
+    </h6>
+  </div>
 </div>
 
-<div class="img">
-  <img class="backgroundimg" src="background.png" alt="Skyline"></img>
-  <div class="imgtext">CRAIGSLIST</div>
-  <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-</div>
-</div>
 
 </body>
 
